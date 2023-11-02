@@ -2,6 +2,9 @@
     position: sticky;
     top: 0px;
     backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-content{
@@ -9,5 +12,5 @@
     justify-content: space-between;
     align-items: center;
     block-size: 80px;
+    padding: 5px 40px;
 }
-

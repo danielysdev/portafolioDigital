@@ -1,0 +1,29 @@
+.button {
+    background-color: white;
+    color: var(--tittleColor);
+    font: 20px;
+    padding-inline-start: 24px;
+    padding-inline-end: 24px;
+    padding-block-start: 13px;
+    padding-block-end: 13px;
+    text-transform: uppercase;
+    border-radius: 90px;
+    border: 2px solid #7882A4;
+    box-shadow: -4px 4px 14px #7882A4;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button.is-secondary {
+    background-color: unset;
+    border: 2px solid var(--fondoColor);
+}
+
+.button:hover {
+    background-color: blueviolet;
+    transition: -4s ease all;
+    color: var(--fondoColor);
+}
+
+

@@ -1,8 +1,16 @@
 @import "./header.css";
 @import "./menu.css";
 @import "./hero.css";
-
-
+@import "./social.css";
+@import "./button-icon.css";
+@import "./button.css";
+@import "./project.css";
+@import "./card.css";
+@import "./certificated.css";
+@import "./shared.css";
+@import "./copyright.css";
+@import "./footer.css";
+@import "./wrapper2.css";
 
 :root {
     --fontBase: Poppins, sans-serif;
@@ -17,7 +25,14 @@
     --body1:16px/26px var(--fontBase);
     --button: bold 14px/23px var(--fontBase);
     --primarycolor: #0F0A0A;
-    --secondaryColor: #42a5f5;
-    --tertiaryColor: #fffff3;
+    --fondoColor: #DAEAF1;
+    --tittleColor: #FF7171;
     --deleteMargin: 0;
 }
+
+
+body {
+    background-color: var(--fondoColor);
+    font: var(--body1);
+    }
+

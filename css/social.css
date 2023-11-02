@@ -1,0 +1,14 @@
+.social {
+    display: flex;
+    gap: 16px; 
+    justify-content: center;
+}
+
+@media (min-width:768px){
+    .social {
+        display: flex;
+        gap: 16px; 
+        justify-content: flex-start;
+        margin-left: 10px;
+    }
+}

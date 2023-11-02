@@ -1,5 +1,6 @@
 .menu{
     display: none;
+    margin-left: 200px;
 }
 
 .menu ul{
@@ -10,13 +11,21 @@
 
 .menu ul a{
     text-decoration: none;
-    color: #f10110;
     text-transform: uppercase;
     font-size: 20px;
+    background-color: white;
+    padding-inline-start: 24px;
+    padding-inline-end: 24px;
+    padding-block-start: 13px;
+    padding-block-end: 13px;
+    border-radius: 90px;
+    border: 2px solid #7882A4;
+    box-shadow: -4px 4px 14px #7882A4;
+    cursor: pointer;
 }
 
 .menu ul a is-active{
-    color: #9c040e;
+    color: blue;
 }
 
 @media (min-width: 768px){
