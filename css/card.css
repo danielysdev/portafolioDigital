@@ -15,7 +15,7 @@
 
 .card-text_top {
     display: flex;
-    font-family: "Arial";
+    font: var(--comment2);
     justify-content: center;
     text-align: center;
     color: black;
@@ -23,7 +23,7 @@
 
 .card-text_bottom {
     display: flex;
-    font-family: "Arial";
+    font: var(--body1);
     justify-content: center;
     align-items: center;
     color: red;
